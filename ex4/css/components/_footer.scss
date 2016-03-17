@@ -1,0 +1,69 @@
+$sprite-img: '../img/sprite.png';
+footer {
+
+  h4 {
+    //font-family: 'Roboto Bold', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: $brand-primary;
+    text-align: left !important;
+    margin: 5px 0 5px 5px;
+  }
+
+  .copyright-footer {
+    font-size: 10px;
+    color: #999;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background: #f5f5f5;
+  }
+
+  //BOX-PAY
+  .box-pay-footer {
+    background: #eee;
+    padding: 20px 0;
+  }
+
+  .box-social a {
+    float: left;
+    margin-right: 5px;
+  }
+
+  .bg-secure {
+    background: url('#{$sprite-img}') no-repeat;
+    background-size: 750px 370px;
+  }
+
+  .ico-facebook {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: -320px -110px;
+  }
+  .ico-instagram {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: -290px -110px;
+  }
+
+  .options-pay {
+    width: 250px;
+    height: 30px;
+    background-position: -30px -110px;
+    margin: 5px 0;
+  }
+  .mercado-pago-footer {
+    width: 245px;
+    height: 30px;
+    display: block;
+    background-position: -500px -110px;
+  }
+
+  .box-help-footer {
+    background: #f5f5f5;
+    padding: 20px 0;
+  }
+}

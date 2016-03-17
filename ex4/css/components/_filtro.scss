@@ -1,0 +1,51 @@
+.filtro-active {
+  color: $brand-primary; //#f90;//#f60 !important;
+}
+
+.filtro-produto {
+  @include clearfix();
+  margin: 0 10px 10px 10px;
+}
+
+.filtro-item {
+  float: left;
+  a {
+    color: #999;
+    &:hover,
+    &:active,
+    &:focus {
+      color: $brand-primary; //#f90;
+      text-decoration: none;
+    }
+  }
+}
+
+.narrow-up-down {
+  position: relative;
+
+  &:after {
+    background: url('#{$path-img}sprite-ali.png') no-repeat 0 -1847px;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    float: right;
+    margin: 6px;
+  }
+  &.narrow-up-down-dsc,
+  &.narrow-up-down-asc {
+    padding-right: 10px;
+
+  }
+  &.narrow-up-down-asc {
+    &:after {
+      background-position: 0 -1956px;
+    }
+  }
+  &.narrow-up-down-dsc {
+    &:after {
+      background-position: 0 -2065px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+
+.ui-sortable {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ui-sortable li {
+    padding: 10px;
+    background: #efefef;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.ui-sortable li .descricao {
+    font-weight: bold;
+}
+
+.ui-sortable .actions {
+    padding: 5px 10px;
+    /*background: #FFFFFF;*/
+    border-radius: 2px;
+    float: right;
+    margin-top: -8px;
+}
+
+.ui-sortable [class^="icon-"] {
+    font-size: 25px;
+    color: #999;
+    cursor: pointer;
+}
+
+.ui-sortable [class^="icon-"]:hover {
+    color: #222;
+}

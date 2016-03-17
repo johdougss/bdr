@@ -1,0 +1,68 @@
+$container-lg-filtro: 200px;
+$container-md-filtro: $container-lg-filtro;
+$container-sm-filtro: $container-sm;
+
+$container-sm-grid: $container-sm - $grid-gutter-width;
+$container-md-grid: $container-md - $grid-gutter-width;
+$container-lg-grid: $container-lg - $grid-gutter-width;
+.container-filtro {
+  //background: red;
+  float: left;
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm-filtro;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md-filtro;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg-filtro;
+  }
+}
+
+.container-produtos {
+  float: left;
+  //background: blue;
+  margin-bottom: 50px;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm-grid;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md-grid - $container-md-filtro;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg-grid - $container-lg-filtro;
+  }
+}
+
+.container-produto {
+  float: left;
+  //background: blue;
+  margin-bottom: 50px;
+
+  width: 500px;
+  //@media (min-width: $screen-sm-min) {
+  //}
+  //@media (min-width: $screen-md-min) {
+  //  width: 500px;
+  //}
+  //@media (min-width: $screen-lg-min) {
+  //  width: $container-lg - $container-lg-filtro;
+  //}
+}
+
+.container-produto-details {
+  float: left;
+  //background: blue;
+  margin-bottom: 50px;
+
+  @media (min-width: $screen-sm-min) {
+    width: ($container-sm-grid)- 500px;
+  }
+  @media (min-width: $screen-md-min) {
+    width: ($container-md-grid)- 500px;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: ($container-lg-grid) -500px;
+  }
+}

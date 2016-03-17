@@ -1,0 +1,48 @@
+// Core variables and mixins
+@import "components/variables";
+@import "components/mixins";
+// Reset and dependencies
+@import "components/normalize";
+//@import "components/print";
+//@import "components/glyphicons";
+// Core CSS
+@import "components/scaffolding";
+@import "components/type";
+@import "components/grid";
+@import "components/sweetalert";
+@import "components/ui-sortable";
+@import "components/input";
+@import "components/icons";
+@import "components/buttons";
+@import "components/breadcrumbs";
+//Components
+@import "components/utilities";
+@import "components/responsive-utilities";
+@import "components/header";
+
+#visualizar-container {
+  padding: 20px;
+  border: 2px solid #69BDFF;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+#form-container {
+  padding: 20px 0;
+  /* border: 2px solid #69BDFF; */
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  text-shadow: 0px 1px 0px #fff;
+  color: #BBBBBB;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #fff, #F9F9F9);
+}
+
+.page {
+  min-height: 500px;
+}

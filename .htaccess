@@ -1,0 +1,21 @@
+IndexIgnore * 
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^tarefa1$						            ex4/view/tarefa1.php		 					        [NC,L]
+	RewriteRule ^tarefa2$						            ex4/view/tarefa2.php		 					        [NC,L]
+	RewriteRule ^tarefa3$						            ex4/view/tarefa3.php		 					        [NC,L]
+	RewriteRule ^tarefa4$						            ex4/view/tarefa4.php		 					        [NC,L]
+
+	RewriteRule ^\/?index\/? 	                            index.php 									            [NC,L]
+
+	RewriteCond %{THE_REQUEST} POST
+	RewriteRule ^api/tarefa$						        ex4/api/tarefa_add.php		 					        [NC,L]
+	RewriteCond %{THE_REQUEST} PUT
+    RewriteRule ^api/tarefa$						        ex4/api/tarefa_update.php		 					    [NC,L]
+    RewriteRule ^api/tarefa/prioridade$			            ex4/api/tarefa_prioridade.php		 					[NC,L]
+
+   RewriteCond %{THE_REQUEST} DELETE
+    RewriteRule ^api/tarefa/([0-9]+)$						ex4/api/tarefa_delete.php?id=$1		 					[NC,L]
+</IfModule>
+
