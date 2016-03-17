@@ -34,29 +34,3 @@ class LoginController
         //removido o exit(); pois assim possibilita a execução de testes unitarios.
     }
 }
-
-
-
-//
-///**
-// * assumindo que os valores possiveis para essas variáveis sejam TRUE e FALSE, a função empty pode ser utilizada.
-// */
-//if ((!empty($_SESSION['loggedin'])) || (!empty($_COOKIE['Loggedin']))) {
-//    location('http://www.google.com');
-//}
-
-//
-//if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-//    header("Location: http://www.google.com");
-//    exit();
-//} elseif (isset($_COOKIE['Loggedin']) && $_COOKIE['Loggedin'] == true) {
-//    header("Location: http://www.google.com");
-//    exit();
-//}
-
-
-
-
-
-
-
