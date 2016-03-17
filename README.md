@@ -9,11 +9,19 @@
 * MySQL
 
 Clonar o repositório na raiz de um servidor apache.
+```
+git clone https://github.com/johnathansantos/bdr.git
+```
+
 Acessar o seguinte endereços do seu navegador:
 
 ```
 http://localhost/bdr/
 ```
+
+Para o exercício 4 é necessário a inclusão do banco de dados que se encontra na raiz do projeto
+
+ 
 
 
 ## Tarefa 1
@@ -158,14 +166,6 @@ class UserRepository
 }
 
 ```
-
-### Solução:
-```php
-
-
-```
-
-
 
 
 --------------------------------------
