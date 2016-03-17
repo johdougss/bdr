@@ -28,7 +28,7 @@ $tarefas = $tarefaRepository->findByStatus();
 
                 <div>
                     <h4>Resolução</h4>
-                    <img src="<?php echo asset('/ex4/images/ex3.png') ?>" alt="">
+                    <img src="<?php echo asset('/ex4/images/ex2.png') ?>" alt="">
                 </div>
 
             </div>

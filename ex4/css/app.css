@@ -2694,4 +2694,8 @@ input[type="button"].btn-block {
 .page {
   min-height: 500px; }
 
+.init-center {
+  text-align: center;
+  padding: 100px 0; }
+
 /*# sourceMappingURL=app.css.map */

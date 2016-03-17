@@ -10,7 +10,7 @@ include_once(ABSPATH_PARTIAL . '/header.php');
     <div class="page">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
+                <div class="init-center col-xs-12 col-sm-6  col-md-6  col-lg-6">
                     <h2>Tarefas</h2>
                     <ul class="footer-links">
                         <li><a href="<?php echo url('/tarefa1'); ?>">Tarefa 1</a></li>
@@ -19,7 +19,7 @@ include_once(ABSPATH_PARTIAL . '/header.php');
                         <li><a href="<?php echo url('/tarefa4'); ?>">Tarefa 4</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
+                <div class="init-center col-xs-12 col-sm-6  col-md-6  col-lg-6">
                     <h3>Johnathan Douglas de Souza Santos</h3>
 
                     <address>
