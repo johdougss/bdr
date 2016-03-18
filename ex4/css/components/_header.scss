@@ -5,5 +5,16 @@
 
   a {
     @extend .center-block;
+
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.4em;
   }
+
+  max-width: 100%;
+  background-image: url('#{$path-img}howitworks-bg.jpg');
+  background-position: center center;
+  /* height: 200px; */
+  background-size: cover;
+  background: url('#{$path-img}body-bg14.png') left top repeat, linear-gradient(to right, rgba(21, 31, 56, 1) 0, rgba(28, 79, 122, 1) 25%, rgba(40, 125, 166, 1) 50%, rgba(45, 139, 173, 1) 75%, rgba(51, 161, 186, 1) 100%);
 }

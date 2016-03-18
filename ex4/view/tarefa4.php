@@ -19,11 +19,12 @@ $tarefas = $tarefaRepository->findByStatus();
     </div>
     <div class="page">
         <div class="container">
-            <div>
-                <div>
-                    <p><strong>Desenvolva uma API Rest para um sistema gerenciador de tarefas
-                            (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por
-                            prioridade. Desenvolver utilizando:</strong>
+                <div class="problema">
+            <div class="problema-descricao">
+                    <h2>Tarefa 4</h2>
+                    <p>Desenvolva uma API Rest para um sistema gerenciador de tarefas
+                        (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por
+                        prioridade. Desenvolver utilizando:
                     </p>
 
                     <p>• Linguagem PHP (ou framework CakePHP);</p>

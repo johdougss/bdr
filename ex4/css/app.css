@@ -2669,19 +2669,31 @@ input[type="button"].btn-block {
 .header {
   padding: 20px;
   background: #F7F7F7;
-  text-align: center; }
+  text-align: center;
+  max-width: 100%;
+  background-image: url("../images/howitworks-bg.jpg");
+  background-position: center center;
+  /* height: 200px; */
+  background-size: cover;
+  background: url("../images/body-bg14.png") left top repeat, linear-gradient(to right, #151f38 0, #1c4f7a 25%, #287da6 50%, #2d8bad 75%, #33a1ba 100%); }
+  .header a {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.4em; }
 
 #visualizar-container {
   padding: 20px;
   border: 2px solid #69BDFF;
   border-radius: 2px;
-  margin-bottom: 10px; }
+  max-width: 400px;
+  margin: 20px auto 10px; }
 
 #form-container {
   padding: 20px 0;
   /* border: 2px solid #69BDFF; */
   border-radius: 2px;
-  margin-bottom: 10px; }
+  max-width: 400px;
+  margin: 0 auto 10px; }
 
 .footer {
   padding: 30px;
@@ -2696,6 +2708,28 @@ input[type="button"].btn-block {
 
 .init-center {
   text-align: center;
-  padding: 100px 0; }
+  padding: 50px 0; }
+
+.problema {
+  padding: 10px 20px 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc; }
+  .problema h2 {
+    color: #555;
+    margin-bottom: 30px; }
+
+.problema-descricao {
+  background: #efefef;
+  margin: -10px -20px 0;
+  padding: 20px;
+  border-bottom: 1px solid #ccc; }
+
+.bg-mapa-container {
+  background-color: #f4f4f4;
+  padding: 100px 50px 0; }
+
+.bg-mapa {
+  height: 400px;
+  background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url("../images/mapa.png"); }
 
 /*# sourceMappingURL=app.css.map */

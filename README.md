@@ -2,12 +2,12 @@
 
 ###Todos os requisitos do escopo dos testes foram implementados inclusive os considerados diferenciais
 
-### Instalação
-
 ### Requisitos
 * PHP 5.3 ou superior.
 * MySQL
 
+
+### Instalação
 Clonar o repositório na raiz de um servidor apache.
 ```
 git clone https://github.com/johnathansantos/bdr.git
@@ -17,12 +17,6 @@ Acessar o seguinte endereços do seu navegador:
 
 ```
 http://localhost/bdr/
-```
-
-Para o exercício 4 é necessário a inclusão do banco de dados que se encontra na raiz do projeto
-
-```
-dump.sql
 ```
 
 
@@ -205,6 +199,45 @@ class UserRepository
 }
 
 ```
+
+
+## Tarefa 4
+
+Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade. Desenvolver utilizando:
+
+• Linguagem PHP (ou framework CakePHP);
+
+• Banco de dados MySQL;
+
+Diferenciais:
+
+• Criação de interface para visualização da lista de tarefas;
+
+• Interface com drag and drop;
+
+• Interface responsiva (desktop e mobile);
+
+
+Para o exercício 4 é necessário a inclusão do banco de dados que se encontra na raiz do projeto
+
+```
+dump.sql
+```
+
+Acessar o seguinte endereços do seu navegador :
+
+```
+http://localhost/bdr/tarefa4
+```
+
+Outra opção é acessar o sistema já hospedado em:
+[http://blazecomex.johdoug.com/](http://blazecomex.johdoug.com/)
+
+
+
+
+
+
 
 
 --------------------------------------

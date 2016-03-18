@@ -19,16 +19,18 @@ $tarefas = $tarefaRepository->findByStatus();
     </div>
     <div class="page">
         <div class="container">
-            <div>
-                <div>
-                    <p><strong>Refatore o código abaixo, fazendo as alterações que julgar necessário.</strong>
+            <div class="problema">
+                <div class="problema-descricao">
+                    <h2>Tarefa 2</h2>
+
+                    <p>Refatore o código abaixo, fazendo as alterações que julgar necessário.
                     </p>
-                    <img src="<?php echo asset('/ex4/images/ex2_enunciado.png') ?>" alt="">
+                    <img class="img-responsive" src="<?php echo asset('/ex4/images/ex2_enunciado.png') ?>" alt="">
                 </div>
 
                 <div>
                     <h4>Resolução</h4>
-                    <img src="<?php echo asset('/ex4/images/ex2.png') ?>" alt="">
+                    <img class="img-responsive" src="<?php echo asset('/ex4/images/ex2.png') ?>" alt="">
                 </div>
 
             </div>

@@ -43,17 +43,19 @@ $multiple = new Multiple;
     </div>
     <div class="page">
         <div class="container">
-            <div>
-                <div>
-                    <p><strong>Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima
-                            “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos
-                            de ambos (3 e 5), imprima “FizzBuzz”.</strong>
+            <div class="problema">
+                <div class="problema-descricao">
+                    <h2>Tarefa 1</h2>
+
+                    <p>Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima
+                        “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos
+                        de ambos (3 e 5), imprima “FizzBuzz”.
                     </p>
                 </div>
 
                 <div>
                     <h4>Resolução</h4>
-                    <img src="<?php echo asset('/ex4/images/ex1.png') ?>" alt="">
+                    <img class="img-responsive" src="<?php echo asset('/ex4/images/ex1.png') ?>" alt="">
 
                     <div><?php echo $multiple->verifyFizzBuzz(1, 100); ?></div>
                 </div>
