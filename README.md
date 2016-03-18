@@ -217,6 +217,7 @@ Diferenciais:
 
 • Interface responsiva (desktop e mobile);
 
+### Solução:
 
 Para o exercício 4 é necessário a inclusão do banco de dados que se encontra na raiz do projeto
 
