@@ -76,6 +76,10 @@
 .bg-mapa-container {
   background-color: #f4f4f4;
   padding: 100px 50px 0;
+
+  @media (max-width: $screen-sm-min) {
+    padding: 0;
+  }
 }
 
 .bg-mapa {
@@ -85,4 +89,9 @@
   linear-gradient(#f4f4f4,
                   rgba(255, 255, 255, 0)),
   url("#{$path-img}mapa.png");
+
+  @media (max-width: $screen-sm-min) {
+    //width: $container-sm;
+    height: 650px;
+  }
 }

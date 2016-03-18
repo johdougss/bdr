@@ -2727,9 +2727,15 @@ input[type="button"].btn-block {
 .bg-mapa-container {
   background-color: #f4f4f4;
   padding: 100px 50px 0; }
+  @media (max-width: 768px) {
+    .bg-mapa-container {
+      padding: 0; } }
 
 .bg-mapa {
   height: 400px;
   background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url("../images/mapa.png"); }
+  @media (max-width: 768px) {
+    .bg-mapa {
+      height: 650px; } }
 
 /*# sourceMappingURL=app.css.map */
