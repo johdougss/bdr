@@ -1,7 +1,6 @@
 <?php
 define('ABSPATH', 'ex4/');
 include(ABSPATH . 'init.php');
-Session::start();
 $layout_title = "Prova Thiago Corrêa da Silva";
 include_once(ABSPATH_PARTIAL . '/html_init.php');
 include_once(ABSPATH_PARTIAL . '/header.php');

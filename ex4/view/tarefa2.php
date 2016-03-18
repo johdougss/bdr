@@ -1,7 +1,6 @@
 <?php
 define('ABSPATH', '../');
 include(ABSPATH . 'init.php');
-Session::start();
 $layout_title = "Tarefa 2";
 include(ABSPATH_PARTIAL . '/html_init.php');
 include(ABSPATH_PARTIAL . '/header.php');
